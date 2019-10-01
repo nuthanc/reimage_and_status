@@ -4,6 +4,7 @@ then
 	server-manager reimage --no_confirm --server_id nodeg31 centos-7.6
 	server-manager reimage --no_confirm --server_id nodec58 centos-7.6
 	server-manager reimage --no_confirm --server_id nodec60 centos-7.6
+	server-manager reimage --no_confirm --server_id nodec61 centos-7.6
 else
 	if [ "$1" == "status" ]
     then
